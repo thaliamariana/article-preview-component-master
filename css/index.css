@@ -1,0 +1,54 @@
+body {
+    background-color: hsl(210, 46%, 95%);
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.drawers-image {
+    width: 350px;
+    border-radius: 3%;
+}
+
+.content {
+    background-color: #fff;
+    font-family: 'Manrope', 'sans-serif';
+    padding: 50px;
+    width: 400px;
+}
+
+.title {
+    color: hsl(217, 19%, 35%);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.main-text {
+    color: hsl(212, 23%, 69%);
+    font-size: 13px;
+}
+
+.author-box {
+    display: flex;
+}
+
+#avatar {
+    width: 50px;
+}
+
+#name {
+    font-size: 13px;
+}
+
+#date {
+    color: hsl(212, 23%, 69%);
+    font-size: 13px;
+}
+
+.share {}
